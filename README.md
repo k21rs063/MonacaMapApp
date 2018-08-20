@@ -4,10 +4,10 @@
 * 実機ビルド時とは表示内容が異なる部分があります
 
 ## 概要
-* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)(通称mBaaS)の『位置情報検索』機能を利用して、「現在地情報（緯度経度）をクラウドに保存する・保存したデータを取得して地図に表示する」内容を実装したサンプルプロジェクトです
-* 簡単な操作ですぐに [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます★☆
+* [ニフクラ mobile backend](http://mb.cloud.nifty.com/)(通称mBaaS)の『位置情報検索』機能を利用して、「現在地情報（緯度経度）をクラウドに保存する・保存したデータを取得して地図に表示する」内容を実装したサンプルプロジェクトです
+* 簡単な操作ですぐに [ニフクラ mobile backend](http://mb.cloud.nifty.com/)の機能を体験いただけます★☆
 
-## ニフティクラウドmobile backendって何？？
+## ニフクラ mobile backendって何？？
 スマートフォンアプリのバックエンド機能（プッシュ通知・データストア・会員管理・ファイルストア・SNS連携・位置情報検索・スクリプト）が**開発不要**、しかも基本**無料**(注1)で使えるクラウドサービス！
 
 注1：詳しくは[こちら](http://mb.cloud.nifty.com/price.htm)をご覧ください
@@ -15,7 +15,7 @@
 ![画像002](/readme-img/002.png)
 
 ## 事前準備
-* [ニフティクラウドmobile backend](http://mb.cloud.nifty.com/)のアカウントの取得（無料登録）
+* [ニフクラ mobile backend](http://mb.cloud.nifty.com/)のアカウントの取得（無料登録）
 * Googleアカウント（gmailアカウント）の取得
 
 ## 動作環境
@@ -66,7 +66,7 @@ Android
 1. 左上の「Import Project」をクリックします
 1. 「プロジェクト名」を入力します　例）「MonacaMapApp」
 1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます
-1. プロジェクト：__[MonacaMapApp](https://github.com/NIFTYCloud-mbaas/MonacaMapApp/archive/master.zip)__
+1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__
 1. 「インポート」をクリックするとインポートされたプロジェクトが作成されます
 
 ![画像005](/readme-img/005.png)
@@ -89,7 +89,7 @@ Android
 ![画像008](/readme-img/008.png)
 
 ### 3. [mBaaS](http://mb.cloud.nifty.com/)にお店データとアイコン画像をインポート
-* プロジェクト：__[MonacaMapApp](https://github.com/NIFTYCloud-mbaas/MonacaMapApp/archive/master.zip)__ からダウンロードしたプロジェクトフォルダ内にある「setting」フォルダ内のデータをmBaaSにインポートします
+* プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__ からダウンロードしたプロジェクトフォルダ内にある「setting」フォルダ内のデータをmBaaSにインポートします
 
 ![画像009](/readme-img/009.png)
 
@@ -309,5 +309,5 @@ GeoPointClass.withinSquare("geolocation", geoPoint_nishi_shinjuku, geoPoint_shin
 * mBaaS(monaca)の[ドキュメント](http://mb.cloud.nifty.com/doc/current/#/Monaca)
 * Google Maps JavaScript API の[ドキュメント](https://developers.google.com/maps/documentation/javascript/tutorial)
 * 同じ内容の【iOS】版もご用意しています
- * [Objective-C]https://github.com/NIFTYCloud-mbaas/ObjcMapApp
- * [Swift]https://github.com/NIFTYCloud-mbaas/SwiftMapApp
+ * [Objective-C]https://github.com/NIFCloud-mbaas/ObjcMapApp
+ * [Swift]https://github.com/NIFCloud-mbaas/SwiftMapApp
