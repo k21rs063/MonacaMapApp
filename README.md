@@ -150,7 +150,7 @@ Android
 * プロジェクトの、`js/app.js`を編集します
 * アプリケーションIDはファイル管理の画面からURLを参照して貼り付けます。
 
-  `https://console.mb.cloud.nifty.com/#/applications/アプリケーションID/file`
+  `https://console.mbaas.nifcloud.com/#/applications/アプリケーションID/file`
 
 ![画像016](/readme-img/016.png)
 
@@ -233,7 +233,7 @@ var APPLICATION_ID = "YOUR_NCMB_APPLICATION_ID";
 ```
 ※「`YOUR_NCMB_APPLICATION_ID`」は、mBaaSのファイルストアのURLにある文字列に置き換えます
 
-`https://console.mb.cloud.nifty.com/#/applications/アプリケーションID/file`
+`https://console.mbaas.nifcloud.com/#/applications/アプリケーションID/file`
 
 ### ロジックの紹介
 * `index.html`でデザインを作成し、`js/app.js`にロジックを書いています
