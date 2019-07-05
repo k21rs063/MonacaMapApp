@@ -117,7 +117,7 @@ function showShop() {
                     detail += "<p>"+ category +"</p>";
                     // icon画像(公開ファイル)
                     var iconName = shop.get("image");
-                    var icon = "https://mb.api.cloud.nifty.com/2013-09-01/applications/" + APPLICATION_ID + "/publicFiles/" + iconName;
+                    var icon = "https://mbaas.api.nifcloud.com/2013-09-01/applications/" + APPLICATION_ID + "/publicFiles/" + iconName;
                     markToMap(detail, shopLatLng, map, icon);
                 }
             })

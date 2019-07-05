@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="com.mobilebackend.nifty.mapapp" version="1.0.0">
+<widget xmlns="http://www.w3.org/ns/widgets" id="com.mobilebackend.nifcloud.mapapp" version="1.0.0">
   <name>MapApp</name>
   <description>Hello World App</description>
   <author/>
