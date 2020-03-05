@@ -63,11 +63,20 @@
     <splash src="/res/ios/screen/Default-Landscape~ipad.png" width="1024" height="768"/>
     <splash src="/res/ios/screen/Default-Portrait@2x~ipad.png" width="1536" height="2048"/>
     <splash src="/res/ios/screen/Default-Landscape@2x~ipad.png" width="2048" height="1536"/>
+    <preference name="orientation" value="default"/>
+    <preference name="WKWebViewOnly" value="true"/>
+    <preference name="CordovaWebViewEngine" value="CDVWKWebViewEngine"/>
+    <feature name="CDVWKWebViewEngine">
+      <param name="ios-package" value="CDVWKWebViewEngine"/>
+    </feature>
     <config-file platform="ios" parent="CFBundleLocalizations" target="*-Info.plist">
       <array>
         <string>ja</string>
       </array>
     </config-file>
+    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+      <string>need location access to find things nearby</string>
+    </edit-config>
   </platform>
   <platform name="android">
     <icon src="/res/android/icon/ldpi.png" density="ldpi"/>
@@ -82,25 +91,24 @@
     <splash src="/res/android/screen/splash-port-xhdpi.9.png" density="port-xhdpi"/>
     <splash src="/res/android/screen/splash-port-xxhdpi.9.png" density="port-xxhdpi"/>
     <splash src="/res/android/screen/splash-port-xxxhdpi.9.png" density="port-xxxhdpi"/>
-  </platform>
-  <platform name="windows">
-    <icon src="/res/winrt/icon/package_logo_winrt.png" target="StoreLogo"/>
-    <icon src="/res/winrt/icon/app_logo_winrt.png" target="Square150x150Logo"/>
-    <icon src="/res/winrt/icon/app_small_logo_winrt.png" target="Square30x30Logo"/>
-    <icon src="/res/winrt/icon/app_tile_wide_logo_winrt.png" target="Wide315x150Logo"/>
-    <splash src="/res/winrt/screen/app_splash_screen_winrt.png" width="620" height="300"/>
-  </platform>
-  <platform name="chrome">
-    <icon src="/platforms/chrome/icon.png" width="128" height="128"/>
+    <splash src="/res/android/screen/splash-mdpi.png" density="mdpi"/>
   </platform>
   <preference name="monaca:targetFamilyiPhone" value="1"/>
   <preference name="monaca:targetFamilyiPad" value="1"/>
+  <preference name="WindowsStorePublisherName" value="My Name"/>
+  <preference name="WindowsStoreIdentityName" value="1ef8aff5-46ca-b00f-c4c7-f18b2c7eead3"/>
+  <platform name="electron">
+    <icon src="/res/electron/icon/icon_electron_512.png" width="512" height="512"/>
+    <preference name="SplashScreenWidth" value="620"/>
+    <preference name="SplashScreenHeight" value="300"/>
+    <preference name="ShowSplashScreen" value="false"/>
+    <splash src="/res/electron/screen/electron_splash_image.png" width="620" height="300"/>
+  </platform>
+  <preference name="ios-XCBuildConfiguration-TARGETED_DEVICE_FAMILY" value="1"/>
   <preference name="AutoHideSplashScreen" value="true"/>
   <preference name="FadeSplashScreen" value="true"/>
   <preference name="ShowSplashScreenSpinner" value="false"/>
   <access origin="*"/>
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="EnableViewportScale" value="false"/>
-  <preference name="WindowsStorePublisherName" value="My Name"/>
-  <preference name="WindowsStoreIdentityName" value="1ef8aff5-46ca-b00f-c4c7-f18b2c7eead3"/>
 </widget>
