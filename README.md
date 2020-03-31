@@ -30,7 +30,6 @@ Android
 * MacOS Mojave v10.14.6 (18G103)
 * Android studio: 3.4.1
 * Simulator: Pixel 2 Android OS Version 10
-* Unity 2019.1.14f1
 
 ## サンプルアプリ概要と使い方
 
@@ -67,7 +66,7 @@ Android
 1. 左上の「Import Project」をクリックします
 1. 「プロジェクト名」を入力します　例）「MonacaMapApp」
 1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます
-1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__
+1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCLOUD-mbaas/MonacaMapApp/archive/master.zip)__
 1. 「インポート」をクリックするとインポートされたプロジェクトが作成されます
 
 ![画像005](/readme-img/005.png)
@@ -90,7 +89,7 @@ Android
 ![画像008](/readme-img/008.png)
 
 ### 3. [mBaaS](https://mbaas.nifcloud.com/)にお店データとアイコン画像をインポート
-* プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__ からダウンロードしたプロジェクトフォルダ内にある「setting」フォルダ内のデータをmBaaSにインポートします
+* プロジェクト：__[MonacaMapApp](https://github.com/NIFCLOUD-mbaas/MonacaMapApp/archive/master.zip)__ からダウンロードしたプロジェクトフォルダ内にある「setting」フォルダ内のデータをmBaaSにインポートします
 
 ![画像009](/readme-img/009.png)
 
@@ -310,5 +309,5 @@ GeoPointClass.withinSquare("geolocation", geoPoint_nishi_shinjuku, geoPoint_shin
 * mBaaS(monaca)の[ドキュメント](https://mbaas.nifcloud.com/doc/current/#/Monaca)
 * Google Maps JavaScript API の[ドキュメント](https://developers.google.com/maps/documentation/javascript/tutorial)
 * 同じ内容の【iOS】版もご用意しています
- * [Objective-C]https://github.com/NIFCloud-mbaas/ObjcMapApp
- * [Swift]https://github.com/NIFCloud-mbaas/SwiftMapApp
+ * [Objective-C]https://github.com/NIFCLOUD-mbaas/ObjcMapApp
+ * [Swift]https://github.com/NIFCLOUD-mbaas/SwiftMapApp
