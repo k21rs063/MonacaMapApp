@@ -65,18 +65,17 @@ Android
 1. [Monaca](https://ja.monaca.io/)にログインします
 1. 左上の「インポート」をクリックします </br>
 <img src="readme-img/monaca_new_project.png" width="550" alt="新規プロジェクト"/>
-1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます </br>
-1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__ </br>
+1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます
+1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__
 <img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
-1. 「プロジェクト名」を入力します　例）「MonacaMapApp」</br>
+1. 「プロジェクト名」を入力します　例）「MonacaMapApp」
 <img src="readme-img/ImportProject.png" width="550" alt="新規プロジェクト" />
 1. 「プロジェクトのインポート」をクリックするとインポートされたプロジェクトが作成されます
-
 * 作成されたプロジェクトを「開く」をクリックして開きます
 * プロジェクトが開き、プレビュー画面が表示されます
- * プレビュー画面あるいは[Monacaデバッガー](https://ja.monaca.io/debugger.html)で遊んでみましょう！
+    * プレビュー画面あるいは[Monacaデバッガー](https://ja.monaca.io/debugger.html)で遊んでみましょう！
 
-※ 動作確認は、プレビュー画面・Monacaデバッガーいずれも__iPhone6__以上の使用を推奨します
+※ 動作確認は、プレビュー画面・Monacaデバッガーいずれも __iPhone6__ 以上の使用を推奨します
 
 ### 2. mBaaSでアプリ作成とAPIキーの発行
 
@@ -90,7 +89,7 @@ Android
 ![画像008](/readme-img/008.png)
 
 ### 3. [mBaaS](https://mbaas.nifcloud.com/)にお店データとアイコン画像をインポート
-* プロジェクト：__[MonacaMapApp](https://github.com/NIFCLOUD-mbaas/MonacaMapApp/archive/master.zip)__ からダウンロードしたプロジェクトフォルダ内にある「setting」フォルダ内のデータをmBaaSにインポートします
+* プロジェクト： __[MonacaMapApp](https://github.com/NIFCLOUD-mbaas/MonacaMapApp/archive/master.zip)__ からダウンロードしたプロジェクトフォルダ内にある「setting」フォルダ内のデータをmBaaSにインポートします
 
 ![画像009](/readme-img/009.png)
 
