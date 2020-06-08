@@ -63,17 +63,21 @@ Android
 ### 1.Monacaでプロジェクトインポートしてアプリを起動
 
 1. [Monaca](https://ja.monaca.io/)にログインします
-1. 左上の「インポート」をクリックします </br>
-<img src="readme-img/monaca_new_project.png" width="550" alt="新規プロジェクト"/>
-1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます
-1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__
+2. 左上の「インポート」をクリックします </br>
+<img src="readme-img/monaca_new_project.png" width="550" alt="新規プロジェクト"/> 
+3. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます
+
+4. プロジェクト： [MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip) </br>
 <img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
-1. 「プロジェクト名」を入力します　例）「MonacaMapApp」
+
+5. 「プロジェクト名」を入力します　例）「MonacaMapApp」</br>
 <img src="readme-img/ImportProject.png" width="550" alt="新規プロジェクト" />
-1. 「プロジェクトのインポート」をクリックするとインポートされたプロジェクトが作成されます
-* 作成されたプロジェクトを「開く」をクリックして開きます
-* プロジェクトが開き、プレビュー画面が表示されます
-    * プレビュー画面あるいは[Monacaデバッガー](https://ja.monaca.io/debugger.html)で遊んでみましょう！
+
+6. 「プロジェクトのインポート」をクリックするとインポートされたプロジェクトが作成されます
+
+* 作成されたプロジェクトを「開く」をクリックして開きます</br>  
+* プロジェクトが開き、プレビュー画面が表示されます</br>  
+    * プレビュー画面あるいは [Monacaデバッガー](https://ja.monaca.io/debugger.html) で遊んでみましょう！
 
 ※ 動作確認は、プレビュー画面・Monacaデバッガーいずれも __iPhone6__ 以上の使用を推奨します
 
