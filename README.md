@@ -117,16 +117,17 @@ Android
 ### 4. [Google Cloud platform](https://console.cloud.google.com/)でプロジェクトの作成とAPIキーの発行、Google Maps JavaScript API の許可
 
 *  [Google Cloud platform](https://console.cloud.google.com/)にログインします
+* 左上の![ボタン画像](/readme-img/button.png)を選択して、メニューバーにあるAPIとサービスでダッシュボードを選択します。</br>
+<img src="readme-img/Dashboard.png" width="450" alt="ダッシュボード"/>
 * プロジェクトを作成します
  * プロジェクト名は任意で作成します　例）MapApp
 
 ![画像GCP001](/readme-img/GCP001.png)
 
-* GoogleAPI呼び出し用のAPIキーを作成します
-
-![画像GCP002](/readme-img/GCP002.png)
+* GoogleAPI呼び出し用のAPIキーを作成します </br>
+![画像GCP002](/readme-img/GCP002.png) </br>
 ![画像GCP003](/readme-img/GCP003.png)
-![画像GCP004](/readme-img/GCP004.png)
+<img src="readme-img/GCP004.png" width="850" alt="新規プロジェクト" />
 
 * Google Maps JavaScript APIを有効にします
 
