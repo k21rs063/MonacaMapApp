@@ -65,10 +65,11 @@ Android
 1. [Monaca](https://ja.monaca.io/)にログインします
 1. 左上の「インポート」をクリックします </br>
 <img src="readme-img/monaca_new_project.png" width="550" alt="新規プロジェクト"/>
-1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます
+1. 「インポート方法」の「URLを指定してインポート」をチェックし、下記リンクを右クリックでコピーし、貼り付けます </br>
+1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__ </br>
 <img src="readme-img/monaca_new_project_2.JPG" width="550" alt="新規プロジェクト" />
-1. プロジェクト：__[MonacaMapApp](https://github.com/NIFCloud-mbaas/MonacaMapApp/archive/master.zip)__
-1. 「プロジェクト名」を入力します　例）「MonacaMapApp」
+1. 「プロジェクト名」を入力します　例）「MonacaMapApp」</br>
+<img src="readme-img/ImportProject.png" width="550" alt="新規プロジェクト" />
 1. 「プロジェクトのインポート」をクリックするとインポートされたプロジェクトが作成されます
 
 * 作成されたプロジェクトを「開く」をクリックして開きます
