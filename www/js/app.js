@@ -20,13 +20,15 @@ var lng;
 // マーカー
 var markers = [];
 
+document.addEventListener("deviceready", onDeviceReady, false);
+
 // 起動時の処理
-$(function() {
+function onDeviceReady() {
     // 画面サイズを取得して地図サイズを設定
     $("#map_canvas").height(window.parent.screen.height*0.5);
     // 現在地を取得して地図を表示
     showMap();
-});
+}
 
 //----------------------------------mBaaSの処理------------------------------------
 // 【mBaaS：データストア】位置情報保存
@@ -226,6 +228,10 @@ var onError = function(error){
 
 // 現在地取得時に設定するオプション
 var option = {
+    // enableHighAccuracy: Provides a hint that the application needs the best possible results.
+    // By default, the device attempts to retrieve a Position using network-based methods.
+    // Setting this property to true tells the framework to use more accurate methods, such as satellite positioning. (Boolean)
+    enableHighAccuracy: true,
     // 取得する間隔を１秒に設定
     frequency: 1000,
     // 6秒以内に取得できない場合はonGeoErrorコールバックに渡すよう設定
