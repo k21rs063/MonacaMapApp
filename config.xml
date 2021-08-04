@@ -36,6 +36,9 @@
   <allow-intent href="itms-apps:*"/>-->
   <preference name="FadeSplashScreenDuration" value="250"/>
   <platform name="ios">
+    <edit-config target="NSLocationWhenInUseUsageDescription" file="*-Info.plist" mode="merge">
+      <string>need location access</string>
+    </edit-config>
     <icon src="/res/ios/icon/icon.png" width="57" height="57"/>
     <icon src="/res/ios/icon/icon@2x.png" width="114" height="114"/>
     <icon src="/res/ios/icon/icon-72.png" width="72" height="72"/>

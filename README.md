@@ -223,7 +223,7 @@ var CLIENTKEY      = "YOUR_NCMB_CLIENTKEY";
 
 ```html:index.html
 <!-- Google Maps APIkeyの設定と初期化 -->
-<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&libraries=geometry" type="text/javascript"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_GOOGLE_MAPS_API_KEY&v=3&libraries=geometry" type="text/javascript"></script>
 ```
 
 ※「`YOUR_GOOGLE_MAPS_API_KEY`」は、Google Cloud Platformのダッシュボードで発行したAPIキーに置き換えます
