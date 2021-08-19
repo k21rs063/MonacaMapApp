@@ -2,8 +2,8 @@ import TestFilters from '../support/filterTests.js'
 
 TestFilters([], () => {
     describe('MonacaMapApp', function () {
-        var lat = 10.7723266
-        var lng = 106.62461289999999
+        var lat = 35.695737
+        var lng = 139.687384
         beforeEach(() => {
             cy.viewport('iphone-x')
             cy.visit('http://localhost:8080', fakeLocation(lat, lng))
