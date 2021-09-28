@@ -21,8 +21,10 @@
 * Googleアカウント（gmailアカウント）の取得
 
 ## 動作環境
+
 ※下記内容で動作確認をしています
 Cordova 9.0, Javascript SDK ver 3.1.1導入済み
+
 iOS
 * Mac OS X 10.11.6(El Capitan)
 * iPhone5 iOS 9.3.5
