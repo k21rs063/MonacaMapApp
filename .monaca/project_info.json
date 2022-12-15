@@ -1,7 +1,7 @@
 {
     "framework_version": "3.5",
-    "xcode_version": "11.3",
-    "cordova_version": "9.0",
+    "xcode_version": "12.5.1",
+    "cordova_version": "10.0",
     "title-ja": "",
     "title-en": "",
     "description-ja": "",
@@ -12,5 +12,6 @@
         "ios"
     ],
     "name": "generated-1473066202-57b558307e2193e175dbb418",
-    "cordova_ios_platform": "5.1.1"
+    "cordova_ios_platform": "6.1.1",
+    "cordova_android_platform": "9.0.0"
 }
