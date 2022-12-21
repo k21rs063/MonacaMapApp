@@ -130,7 +130,7 @@ function showShop() {
             });
     }
 }
-
+//新規作成 駅の表示
 // 【mBaaS:データストア】位置情報検索（GeoPointクラスの検索）
 function showLocation(button) {
     var type_id = button.id;
@@ -162,9 +162,9 @@ function showLocation(button) {
                 GeoPointClass.withinKilometers("geolocation", geoPoint, 3);
                 break;
             case "square":
-                alert("矩形検索(新宿駅と西新宿駅の間)");
+                alert("矩形検索(九産大前駅と香椎駅の間)");
                 type = "矩形";
-                GeoPointClass.withinSquare("geolocation", geoPoint_nishi_shinjuku, geoPoint_shinjuku);
+                GeoPointClass.withinSquare("geolocation", geoPoint_Kyusandai-mae, geoPoint_Kashi);
                 break;
         }
         // 検索
