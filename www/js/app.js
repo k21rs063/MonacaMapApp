@@ -193,6 +193,46 @@ function showLocation(button) {
     }
 }
 
+//新規追加 駅クラス
+function showStation() {
+    // 現在地取得確認
+    if (lat == "" || lat == null || lng == "" || lng == null) {
+        // 現在地取得失敗時
+        console.log("現在地情報なし");
+    } else {
+        // 現在地取得成功時
+        console.log("現在地情報あり[lat:" + lat + ", lng:" + lng + "]");
+        // 検索クラスインスタンスを生成
+        var StationClass = ncmb.DataStore("Station");
+        // 全件検索
+        StationClass.fetchAll()
+            .then(function(stations) {
+                // 検索成功時の処理
+                console.log("駅検索に成功しました");
+                for (var i = 0; i < stations.length; i++){
+                    var station = stations[i];
+                    var stationLocation = station.get("geolocation");
+                    var stationLatLng = new google.maps.LatLng(stationLocation.latitude, stationLocation.longitude);
+                    // 情報ウィンドウ
+                    var detail = "";
+                    var stationName = station.get("stationName");
+                    detail += "<h2>"+ stationName +"</h2>";
+                    var category = station.get("category");
+                    detail += "<p>"+ category +"</p>";
+                    // icon画像(公開ファイル)
+                    var iconName = station.get("image");
+                    var icon = "https://mbaas.api.nifcloud.com/2013-09-01/applications/" + APPLICATION_ID + "/publicFiles/" + iconName;
+                    markToMap(detail, stationLatLng, map, null);
+                }
+            })
+            .catch(function(error) {
+                // 検索失敗時の処理
+                alert("駅検索に失敗しました：" + error.message);
+                console.log("駅検索に失敗しました：" + error.message);
+            });
+    }
+}
+
 //----------------------------------地図の表示-------------------------------------
 
 // 現在地を取得する
