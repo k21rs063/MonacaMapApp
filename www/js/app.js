@@ -130,7 +130,6 @@ function showShop() {
             });
     }
 }
-//新規作成 駅の表示
 // 【mBaaS:データストア】位置情報検索（GeoPointクラスの検索）
 function showLocation(button) {
     var type_id = button.id;
@@ -146,10 +145,10 @@ function showLocation(button) {
         var GeoPointClass = ncmb.DataStore("GeoPoint");
         // 現在地
         var geoPoint = new ncmb.GeoPoint(lat, lng);
-        // 新宿駅
-        var geoPoint_shinjuku = new ncmb.GeoPoint("35.690553", "139.699579");
-        // 西新宿駅
-        var geoPoint_nishi_shinjuku = new ncmb.GeoPoint("35.694514", "139.692633");
+        // 九産大前駅
+        var geoPoint_kyusandaimae = new ncmb.GeoPoint("33.67338749663387", "130.43947397167088");
+        // 福工大前駅
+        var geoPoint_fukkodaimae = new ncmb.GeoPoint("33.698430806516676", "130.4399791946818");
         // 検索条件
         switch (type_id){
             case "all":
@@ -162,9 +161,9 @@ function showLocation(button) {
                 GeoPointClass.withinKilometers("geolocation", geoPoint, 3);
                 break;
             case "square":
-                alert("矩形検索(九産大前駅と香椎駅の間)");
+                alert("矩形検索(九産大前駅と福工大前駅の間)");
                 type = "矩形";
-                GeoPointClass.withinSquare("geolocation", geoPoint_Kyusandai-mae, geoPoint_Kashi);
+                GeoPointClass.withinSquare("geolocation", geoPoint_kyusandaimae, geoPoint_fukkodaimae);
                 break;
         }
         // 検索
